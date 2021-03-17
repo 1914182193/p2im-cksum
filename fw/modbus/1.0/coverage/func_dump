@@ -1,0 +1,298 @@
+080001ac <__do_global_dtors_aux>:
+080001d0 <frame_dummy>:
+08000218 <strlen>:
+08000230 <memchr>:
+080002d0 <__aeabi_uldivmod>:
+08000300 <__udivmoddi4>:
+080005dc <__aeabi_idiv0>:
+080005e0 <aflCall>:
+080005e4 <startForkserver>:
+08000600 <Modbus::begin(long)>:
+0800066c <Modbus::init(unsigned char, unsigned char, unsigned char)>:
+08000682 <Modbus::Modbus(unsigned char, unsigned char, unsigned char)>:
+08000690 <__static_initialization_and_destruction_0(int, int)>:
+080006b4 <Modbus::getRxBuffer()>:
+08000728 <Modbus::calcCRC(unsigned char)>:
+0800076c <Modbus::sendTxBuffer()>:
+080007f0 <Modbus::validateRequest()>:
+080008cc <Modbus::buildException(unsigned char)>:
+080008e2 <Modbus::process_FC1(unsigned short*, unsigned char)>:
+08000998 <Modbus::process_FC3(unsigned short*, unsigned char)>:
+08000a00 <Modbus::process_FC5(unsigned short*, unsigned char)>:
+08000a4e <Modbus::process_FC6(unsigned short*, unsigned char)>:
+08000a7a <Modbus::process_FC15(unsigned short*, unsigned char)>:
+08000b04 <Modbus::process_FC16(unsigned short*, unsigned char)>:
+08000b54 <Modbus::poll(unsigned short*, unsigned char)>:
+08000c4c <setup>:
+08000c64 <loop>:
+08000c7c <_GLOBAL__sub_I__ZN6ModbusC2Ev>:
+08000c8c <SystemClock_Config>:
+08000d3c <Reset_Handler>:
+08000d44 <CopyDataInit>:
+08000d4c <LoopCopyDataInit>:
+08000d5a <FillZerobss>:
+08000d60 <LoopFillZerobss>:
+08000d8c <ADC_IRQHandler>:
+08000d8e <init>:
+08000d96 <HAL_MspInit>:
+08000d98 <HAL_InitTick>:
+08000de4 <HAL_Init>:
+08000e18 <HAL_IncTick>:
+08000e30 <HAL_GetTick>:
+08000e3c <HAL_NVIC_SetPriorityGrouping>:
+08000e60 <HAL_NVIC_SetPriority>:
+08000ec4 <HAL_NVIC_EnableIRQ>:
+08000ee0 <HAL_SYSTICK_Config>:
+08000f0c <HAL_NVIC_ClearPendingIRQ>:
+08000f2c <HAL_SYSTICK_CLKSourceConfig>:
+08000f4c <HAL_SYSTICK_Callback>:
+08000f4e <HAL_SYSTICK_IRQHandler>:
+08000f56 <HAL_DAC_DeInit>:
+08000f72 <HAL_DAC_Stop>:
+08000f8c <HAL_DMA_Abort_IT>:
+08000fb4 <HAL_GPIO_Init>:
+08001198 <HAL_GPIO_WritePin>:
+080011a4 <HAL_GPIO_EXTI_IRQHandler>:
+080011c0 <I2C_Master_SB>:
+0800124a <I2C_Master_ADD10>:
+08001256 <I2C_Master_ADDR>:
+08001420 <I2C_SlaveTransmit_BTF>:
+08001440 <I2C_SlaveReceive_BTF>:
+08001460 <HAL_I2C_Slave_Sequential_Transmit_IT>:
+080014ec <HAL_I2C_Slave_Sequential_Receive_IT>:
+08001578 <HAL_I2C_EnableListen_IT>:
+080015b6 <HAL_I2C_MasterTxCpltCallback>:
+080015b8 <HAL_I2C_MasterRxCpltCallback>:
+080015ba <HAL_I2C_SlaveTxCpltCallback>:
+080015bc <I2C_SlaveTransmit_TXE>:
+0800160c <HAL_I2C_SlaveRxCpltCallback>:
+0800160e <I2C_SlaveReceive_RXNE>:
+0800165a <I2C_Slave_ADDR>:
+08001684 <I2C_Slave_AF>:
+08001718 <HAL_I2C_MemTxCpltCallback>:
+0800171a <I2C_MasterTransmit_TXE>:
+08001864 <I2C_MasterTransmit_BTF>:
+08001902 <HAL_I2C_MemRxCpltCallback>:
+08001904 <I2C_MasterReceive_RXNE>:
+080019a0 <I2C_MasterReceive_BTF>:
+08001aac <HAL_I2C_AbortCpltCallback>:
+08001ab0 <I2C_ITError>:
+08001bfc <I2C_Slave_STOPF>:
+08001d00 <HAL_I2C_EV_IRQHandler>:
+08001e68 <HAL_I2C_ER_IRQHandler>:
+08001f3c <I2C_DMAAbort>:
+08001f9c <HAL_PWREx_EnableOverDrive>:
+0800201c <HAL_RCC_OscConfig>:
+080023b4 <HAL_RCC_GetSysClockFreq>:
+08002488 <HAL_RCC_ClockConfig>:
+080025e0 <HAL_RCC_GetHCLKFreq>:
+080025ec <HAL_RCC_GetPCLK1Freq>:
+0800260c <HAL_RCC_GetPCLK2Freq>:
+0800262c <HAL_RTC_AlarmIRQHandler>:
+0800268c <HAL_RTCEx_AlarmBEventCallback>:
+0800268e <HAL_TIM_PWM_DeInit>:
+080026c8 <HAL_TIM_IC_CaptureCallback>:
+080026ca <HAL_TIM_PWM_PulseFinishedCallback>:
+080026cc <HAL_TIM_TriggerCallback>:
+080026ce <HAL_TIM_IRQHandler>:
+08002848 <TIM_CCxChannelCmd>:
+08002864 <HAL_TIM_PWM_Stop>:
+080028d4 <TIM_CCxNChannelCmd>:
+080028f0 <HAL_TIMEx_PWMN_Stop>:
+0800293c <HAL_TIMEx_CommutationCallback>:
+0800293e <HAL_TIMEx_BreakCallback>:
+08002940 <UART_EndRxTransfer>:
+0800295c <UART_Transmit_IT>:
+080029c8 <UART_SetConfig>:
+08002d0c <UART_WaitOnFlagUntilTimeout>:
+08002d70 <HAL_UART_MspInit>:
+08002d72 <HAL_UART_Init>:
+08002dd0 <HAL_UART_Transmit>:
+08002eb2 <HAL_UART_Transmit_IT>:
+08002efa <HAL_UART_Receive_IT>:
+08002f4c <UART_EndTransmit_IT>:
+08002f66 <UART_Receive_IT>:
+08002ffc <HAL_UART_IRQHandler>:
+0800311c <UART_DMAAbortOnError>:
+0800312c <HAL_UART_GetState>:
+08003138 <is_pin_configured>:
+0800314e <set_pin_configured>:
+0800316c <reset_pin_configured>:
+0800318c <get_GPIO_Port>:
+080031fc <set_GPIO_Port_Clock>:
+08003380 <get_dac_channel>:
+0800339c <get_pwm_channel>:
+080033c8 <HAL_DAC_MspDeInit>:
+080033d8 <dac_stop>:
+0800340c <HAL_TIM_PWM_MspDeInit>:
+08003414 <pwm_stop>:
+0800346c <GetCurrentMilli>:
+08003474 <noOsSystickHandler>:
+08003476 <SysTick_Handler>:
+08003486 <digital_io_init>:
+080034b6 <digital_io_write>:
+080034ce <hw_config_init>:
+080034da <pinmap_find_peripheral>:
+080034f4 <pinmap_peripheral>:
+08003506 <pinmap_find_pin>:
+0800351e <pinmap_pin>:
+0800352e <pinmap_find_function>:
+0800354a <pinmap_function>:
+0800355e <pin_in_pinmap>:
+08003582 <pinmap_merge_peripheral>:
+08003594 <HAL_RTC_AlarmAEventCallback>:
+080035ac <RTC_Alarm_IRQHandler>:
+080035bc <SystemInit>:
+080035fc <timer_disable_clock>:
+08003750 <get_timer_obj>:
+08003754 <HAL_TIM_OC_DelayElapsedCallback>:
+0800376e <HAL_TIM_PeriodElapsedCallback>:
+0800377c <TIM1_UP_TIM10_IRQHandler>:
+08003798 <TIM2_IRQHandler>:
+080037ac <TIM3_IRQHandler>:
+080037c0 <TIM4_IRQHandler>:
+080037d4 <TIM5_IRQHandler>:
+080037e8 <TIM6_DAC_IRQHandler>:
+080037fc <TIM7_IRQHandler>:
+08003810 <TIM8_UP_TIM13_IRQHandler>:
+0800382c <TIM1_BRK_TIM9_IRQHandler>:
+08003840 <TIM1_TRG_COM_TIM11_IRQHandler>:
+08003854 <TIM8_BRK_TIM12_IRQHandler>:
+08003868 <TIM8_TRG_COM_TIM14_IRQHandler>:
+0800387c <get_i2c_obj>:
+08003880 <HAL_I2C_AddrCallback>:
+080038d0 <HAL_I2C_ListenCpltCallback>:
+08003900 <HAL_I2C_ErrorCallback>:
+08003918 <I2C1_EV_IRQHandler>:
+08003928 <I2C1_ER_IRQHandler>:
+08003938 <I2C2_EV_IRQHandler>:
+08003948 <I2C2_ER_IRQHandler>:
+08003958 <I2C3_EV_IRQHandler>:
+08003968 <I2C3_ER_IRQHandler>:
+08003978 <uart_init>:
+08003cc8 <uart_debug_init>:
+08003d18 <uart_debug_write>:
+08003dd0 <serial_rx_active>:
+08003df4 <serial_tx_active>:
+08003e18 <uart_getc>:
+08003e54 <uart_attach_rx_callback>:
+08003eac <uart_attach_tx_callback>:
+08003f00 <uart_index>:
+08003f24 <HAL_UART_RxCpltCallback>:
+08003f48 <HAL_UART_TxCpltCallback>:
+08003f94 <HAL_UART_ErrorCallback>:
+08003fd4 <USART1_IRQHandler>:
+08003fec <USART2_IRQHandler>:
+08004004 <USART3_IRQHandler>:
+0800401c <UART4_IRQHandler>:
+08004034 <UART5_IRQHandler>:
+0800404c <USART6_IRQHandler>:
+08004064 <UART7_IRQHandler>:
+0800407c <UART8_IRQHandler>:
+08004094 <_sbrk>:
+080040d0 <_close>:
+080040d6 <_fstat>:
+080040e0 <_isatty>:
+080040e4 <_lseek>:
+080040e8 <_read>:
+080040ec <_write>:
+080040f8 <_exit>:
+080040fc <_kill>:
+0800410c <_getpid>:
+08004110 <pinMode>:
+080041bc <digitalWrite>:
+08004204 <millis>:
+0800420c <HardwareSerial::_tx_complete_irq(serial_s*)>:
+08004240 <HardwareSerial::available()>:
+08004254 <HardwareSerial::peek()>:
+08004270 <HardwareSerial::read()>:
+08004298 <HardwareSerial::flush()>:
+080042ac <HardwareSerial::_rx_complete_irq(serial_s*)>:
+080042e8 <HardwareSerial::write(unsigned char)>:
+08004338 <serialEventRun()>:
+08004364 <HardwareSerial::init()>:
+08004388 <HardwareSerial::begin(unsigned long, unsigned char)>:
+08004444 <HardwareSerial::setRx(unsigned long)>:
+08004460 <HardwareSerial::setTx(unsigned long)>:
+0800447c <HardwareSerial::HardwareSerial(void*)>:
+080044d8 <__static_initialization_and_destruction_0(int, int)>:
+080044fc <_GLOBAL__sub_I_Serial3>:
+0800450a <IPAddress::printTo(Print&) const>:
+08004544 <IPAddress::IPAddress(unsigned char, unsigned char, unsigned char, unsigned char)>:
+08004560 <__static_initialization_and_destruction_0(int, int)>:
+0800458c <_GLOBAL__sub_I__ZN9IPAddressC2Ev>:
+0800459a <Print::write(unsigned char const*, unsigned int)>:
+080045be <Print::print(char)>:
+080045c8 <Print::printNumber(unsigned long, unsigned char)>:
+08004622 <Print::print(unsigned long, int)>:
+08004638 <Print::print(unsigned char, int)>:
+08004640 <makeWord(unsigned char, unsigned char)>:
+08004646 <initVariant()>:
+08004648 <premain()>:
+08004658 <main>:
+08004678 <get_pin_id(unsigned short)>:
+0800468c <__tcf_0>:
+080046b4 <__static_initialization_and_destruction_0(int, int)>:
+08004760 <EXTI0_IRQHandler>:
+0800476a <EXTI1_IRQHandler>:
+08004774 <EXTI2_IRQHandler>:
+0800477e <EXTI3_IRQHandler>:
+08004788 <EXTI4_IRQHandler>:
+08004792 <EXTI9_5_IRQHandler>:
+080047a8 <EXTI15_10_IRQHandler>:
+080047c0 <std::function<void ()>::operator()() const>:
+ 80047c4:	b113      	cbz	r3, 80047cc <std::function<void ()>::operator()() const+0xc>
+080047d0 <HAL_GPIO_EXTI_Callback>:
+ 80047e6:	f7ff ffeb 	bl	80047c0 <std::function<void ()>::operator()() const>
+080047f0 <_GLOBAL__sub_I__Z22stm32_interrupt_enableP12GPIO_TypeDeftSt8functionIFvvEEm>:
+080047fe <__aeabi_atexit>:
+08004808 <__assert_func>:
+08004844 <__cxa_atexit>:
+08004860 <fiprintf>:
+08004884 <__libc_init_array>:
+080048cc <memset>:
+080048dc <_free_r>:
+08004978 <_malloc_r>:
+08004a34 <__sfputc_r>:
+08004a60 <__sfputs_r>:
+08004a84 <_vfiprintf_r>:
+08004cb0 <_printf_common>:
+08004d9c <_printf_i>:
+08004fdc <iprintf>:
+0800500c <_sbrk_r>:
+0800502c <__swbuf_r>:
+080050d0 <__swsetup_r>:
+080051ac <abort>:
+080051bc <__sflush_r>:
+080052cc <_fflush_r>:
+08005320 <_cleanup_r>:
+0800532c <std.isra.0>:
+08005374 <__sfmoreglue>:
+080053a0 <__sinit>:
+08005400 <__sfp>:
+08005478 <_fwalk_reent>:
+080054b4 <__swhatbuf_r>:
+080054fc <__smakebuf_r>:
+0800557c <__malloc_lock>:
+0800557e <__malloc_unlock>:
+08005580 <_raise_r>:
+080055d0 <raise>:
+080055e0 <_kill_r>:
+08005604 <_getpid_r>:
+08005608 <__sread>:
+0800562a <__swrite>:
+08005662 <__sseek>:
+08005686 <__sclose>:
+08005690 <_write_r>:
+080056b4 <_close_r>:
+080056d4 <_fstat_r>:
+080056f8 <_isatty_r>:
+08005718 <_lseek_r>:
+0800573c <_read_r>:
+08005760 <std::__throw_bad_function_call()>:
+08005768 <_GLOBAL__sub_I__ZNSt12ctype_bynameIcEC2ERKSsj>:
+0800582c <_GLOBAL__sub_I__ZNSt12ctype_bynameIwEC2ERKSsj>:
+080058f0 <_GLOBAL__sub_I__ZNSt12ctype_bynameIwEC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEj>:
+08005974 <_GLOBAL__sub_I__ZNSt12ctype_bynameIcEC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEj>:
+080059f8 <_init>:
+08005a04 <_fini>:
